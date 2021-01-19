@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(175, 174, 174);
+    text-align: center;
+    }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  
+}
+.post {
+    background-color: white;
+    height: 570px;
+    width: 650px;
+    margin: 30px;
+}
+.post-header {
+    height: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    }
+.name {
+    font-weight: bold;
+    align-items: center;
+    }
+.photo {
+    height: 77%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(167, 165, 165);
+    background-position: center;
+}
+#photo1 {
+    background-image: url( "https://images.pexels.com/photos/5873861/pexels-photo-5873861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+#photo2 {
+    background-image: url("https://images.pexels.com/photos/460797/pexels-photo-460797.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+.footer {
+    height: 11%;
+    align-items: center;
+    display: flex;
+    padding: 0px 15px;
+    }
